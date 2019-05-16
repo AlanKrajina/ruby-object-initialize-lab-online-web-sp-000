@@ -3,7 +3,7 @@ class Dog
     @name = name
     if breed
       @breed = breed
-    else
+    elsif !breed
       @breed = "Mutt"
   end
  
