@@ -3,8 +3,7 @@ class Dog
     @name = name
     if breed
       @breed = breed
-    else
-      @breed = breed
+
   end
  
 end
